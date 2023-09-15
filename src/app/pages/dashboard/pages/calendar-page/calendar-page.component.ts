@@ -10,7 +10,7 @@ import dayGridPlugin from '@fullcalendar/daygrid';
   templateUrl: './calendar-page.component.html',
   styleUrls: ['./calendar-page.component.scss']
 })
-export class CalendarPageComponent {
+export default class CalendarPageComponent {
   calendarOptions: CalendarOptions = {
     initialView: 'dayGridMonth',
     plugins: [dayGridPlugin],
