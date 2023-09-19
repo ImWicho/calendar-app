@@ -27,5 +27,9 @@ export default class CalendarPageComponent {
       minute: '2-digit',
       meridiem: false
     },
+    dayHeaderClassNames: 'text-color',
+    // eventClassNames: 'text-color'
+    dayCellClassNames: 'text-color',
+    
   };
 }
