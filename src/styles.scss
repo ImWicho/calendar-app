@@ -64,17 +64,22 @@
   // SHARED COLORS
   --bg-color: #f4f4f5;
   --text-color: #27272a;
-  --border-color: #3f3f46;
+  --border-color: #e4e4e7;
 }
 
 [data-color-mode="dark"] {
   --text-color: #f4f4f5;
   --bg-color: #18181b;
+  --border-color: #27272a;
   --fc-border-color: #3f3f46;
 }
 
 .bg-color{
   background-color: var(--bg-color);
+}
+
+.border-color{
+  border-color: var(--border-color);
 }
 
 .text-color{

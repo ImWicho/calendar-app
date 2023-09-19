@@ -19,7 +19,7 @@ module.exports = {
           '900': 'var(--primary-900)',
           '950': 'var(--primary-950)',
         },
-        'black': 'var(--bg-color)'
+        'black': 'var(--bg-color)',
       }
     },
   },
