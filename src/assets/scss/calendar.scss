@@ -1,0 +1,9 @@
+.fc .fc-toolbar-title{
+  color: var(--text-color);
+}
+
+@media (width <= 640px){
+  .fc .fc-toolbar{
+    flex-direction: column;
+  }
+}

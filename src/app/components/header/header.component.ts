@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { ToggleThemeComponent } from '../toggle-theme/toggle-theme.component';
+import { ToggleThemeComponent } from '@components/toggle-theme/toggle-theme.component';
 
 @Component({
   selector: 'app-header',

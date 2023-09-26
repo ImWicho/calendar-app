@@ -28,7 +28,6 @@ export default class CalendarPageComponent {
       meridiem: false
     },
     dayHeaderClassNames: 'text-color',
-    // eventClassNames: 'text-color'
     dayCellClassNames: 'text-color',
     
   };
