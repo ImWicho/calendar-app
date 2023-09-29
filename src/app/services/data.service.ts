@@ -1,19 +1,16 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from '@angular/core'
 
 export const THEME_KEY = 'darkMode'
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class DataService {
-
-  constructor() { }
-
-  setItem(key: string, value: string): void{
+  setItem(key: string, value: string): void {
     localStorage.setItem(key, value)
   }
 
-  getItem(key: string): string | null{
+  getItem(key: string): string | null {
     return localStorage.getItem(key)
   }
 }

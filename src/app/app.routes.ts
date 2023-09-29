@@ -1,18 +1,18 @@
-import { Routes } from '@angular/router';
+import { Routes } from '@angular/router'
 
 export const routes: Routes = [
   {
-		path: 'dashboard',
-		loadChildren: () => import('./pages/dashboard/dashboard.routes'),
-	},
+    path: 'dashboard',
+    loadChildren: () => import('./pages/dashboard/dashboard.routes'),
+  },
   {
     path: '',
     redirectTo: 'dashboard/calendar',
-    pathMatch: 'full'
+    pathMatch: 'full',
   },
   {
     path: '**',
     redirectTo: 'dashboard/calendar',
-    pathMatch: 'full'
-  }
-];
+    pathMatch: 'full',
+  },
+]

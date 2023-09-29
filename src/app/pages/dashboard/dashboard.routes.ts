@@ -7,8 +7,9 @@ export default [
     children: [
       {
         path: 'calendar',
-        loadComponent: () => import('./pages/calendar-page/calendar-page.component'),
+        loadComponent: () =>
+          import('./pages/calendar-page/calendar-page.component'),
       },
-    ]
-  }
+    ],
+  },
 ] as Route[]
